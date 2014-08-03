@@ -1,0 +1,66 @@
+/*
+ Custom tooltip styles to be used with AutoTooltip and
+ the YUI tooltip libraries
+*/
+
+span.autoTooltip {
+	border-bottom: double;
+	cursor: help;
+}
+
+a.autoTooltip {
+	border-bottom: double;
+	text-decoration: none;
+	cursor: hand;
+}
+
+
+/* Base Tooltip Styles */
+
+.tt {
+	font: 11px Verdana, Helvetica, sans-serif;
+ 	width: 250px;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+ 	border: none;
+	visibility:hidden;
+	position:absolute;
+	color:#4d4d4d;
+	background-color:#FDFFB4;
+	padding:2px;
+}
+
+.tt .bd {
+	padding: 5px;
+}
+
+
+/* Up Arrow */
+
+.ttPosUnder {
+ 	padding: 13px 0 0 0;
+	background: url(images/autoTooltipsTL.gif) no-repeat left top;
+}
+
+.ttPosUnder .bd {
+	padding: 12px 17px 10px 8px;
+	background: #ffffe5;
+	border: solid #666;
+	border-width: 0 1px 1px 1px;
+}
+
+
+/* Down Arrow */
+
+.ttPosOver {
+	padding: 0 0 13px 0;
+	background: url(images/autoTooltipsBL.gif) no-repeat left bottom; 
+}
+
+.ttPosOver .bd {
+	padding: 8px 17px 12px 8px;
+	background: #ffffe5;
+	border: solid #666;
+	border-width: 1px 1px 0 1px;
+}
