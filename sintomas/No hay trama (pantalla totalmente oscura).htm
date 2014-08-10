@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="es">
+<meta name="author" content="Luis Tamiet (c) - www.comunidadelectronicos.com">
+<meta name="description" content="Cómo encarar la reparación electrónica de televisores de TRC, sin imagen y pantalla oscura">
+<meta name="keywords" content="electronica, curso, reparacion, tv, televisores, monitor, pantalla, imagen">
+<title>No hay trama (pantalla totalmente oscura)</title>
+<style type="text/css">
+<!-- a:hover { color : #FF0000; }
+body { font-family: Arial; } -->
+</style>
+</head>
+<body background="No%20hay%20trama%20(pantalla%20totalmente%20oscura)_archivos/Tech.gif" bgcolor="#FFFFFF">
+<table border="0" cellpadding="2" cellspacing="1" align="center" width="600">
+  <tbody><tr> 
+    <td colspan="2" align="center"><font face="Arial" size="4"><strong>Análisis de fallas de TV<br>
+      </strong></font><font face="Arial"><strong>No hay trama o barrido (Pantalla 
+      totalmente oscura)</strong></font></td>
+  </tr>
+</tbody></table>
+<hr color="#000000" noshade="noshade" size="1" width="740">
+<table border="0" cellspacing="0" align="center" height="18" width="730">
+  <tbody><tr> 
+    <td align="center" width="100%"><script src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/ca-pub-8963060289736912.js" type="text/javascript" async=""></script><script type="text/javascript"><!--
+google_ad_client = "pub-8963060289736912";
+//728x15, creado 13/01/08
+google_ad_slot = "5479601348";
+google_ad_width = 728;
+google_ad_height = 15;
+//--></script> <script type="text/javascript" src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/show_ads.js">
+</script><ins id="aswift_0_expand" style="display:inline-table;border:none;height:15px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:15px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="15" width="728"></iframe></ins></ins> </td>
+  </tr>
+</tbody></table>
+  <hr color="#000000" noshade="noshade" size="1" width="740">
+<table border="0" cellpadding="5" cellspacing="0" align="center" bgcolor="#FFFF99" width="740">
+  <tbody><tr> 
+    <td><p align="center"><font size="2"><strong>ADVERTENCIA !</strong></font></p>
+      <p><font size="2">Para encarar la reparación de cualquier equipo electrónico, 
+        es imprescindible tener suficientes conocimientos, sobre electrónica, 
+        sobre el funcionamiento del equipo y los circuitos involucrados, sobre 
+        el uso y manejo del instrumental y las herramientas a usar. Y se deben 
+        tomar las precauciones y medidas de seguridad del caso. Si no sabe lo 
+        que está haciendo, no lo haga !<br>
+        El autor, no se responsabiliza de las consecuencias. Ver: <a href="http://www.comunidadelectronicos.com/articulos/peligros-en-electronica.htm"><b>Peligros 
+        en los equipos electrónicos</b></a></font></p></td>
+  </tr>
+</tbody></table>
+<hr color="#000000" noshade="noshade" size="1" width="740">
+<table border="0" cellpadding="3" cellspacing="3" align="center" width="600">
+  <tbody><tr> 
+    <td align="center" bgcolor="#FFFFFF" valign="top" width="33%"><img src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/falla-imagen-normal.gif" alt="Imagen normal" height="60" width="80"><br>
+      Imagen o video normal<br> </td>
+    <td align="center" bgcolor="#FFFFFF" valign="top" width="33%"><img src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/falla-trama.gif" alt="Barrido normal, sin video." height="60" width="80"><br>
+      Trama o barrido normal <font size="2">(sin video)</font></td>
+    <td align="center" bgcolor="#FFFFFF" valign="top" width="33%"><img src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/falla-no-trama.gif" alt="Nada en la pantalla." height="60" width="80"><br> <u>No hay trama o barrido<br>
+      </u><font size="2"><u>(pantalla totalmente oscura)</u></font></td>
+  </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="742">
+  <tbody><tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td> <font size="2">Cuando la pantalla de un TV, aparece totalmente en negro, 
+      sin indicios de trama o barrido, y <u>el sonido es normal</u>, las causas 
+      pueden ser muy diversas y originarse en diferentes circuitos: Alimentación 
+      de TRC, Video, ABL (Limitador Automático de Brillo), Flyback, Sistema de 
+      Control ("micro", memoria EEPROM), vertical, etc.<br>
+      &nbsp; </font> </td>
+  </tr>
+  <tr> 
+    <td> <table style="float: right" border="0" cellspacing="0" height="288" width="348">
+        <tbody><tr> 
+          <td align="right" width="100%"> <font face="Arial"> 
+            <script type="text/javascript"><!--
+google_ad_client = "pub-8963060289736912";
+//336x280, creado 29/01/08
+google_ad_slot = "8007494587";
+google_ad_width = 336;
+google_ad_height = 280;
+//--></script>
+            <script type="text/javascript" src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/show_ads.js">
+</script><ins id="aswift_1_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;" frameborder="0" height="280" width="336"></iframe></ins></ins>
+            </font> </td>
+        </tr>
+      </tbody></table>
+      <p><font size="2"><b>Algunas recomendaciones para encarar la reparación.</b></font></p>
+      <p><font size="2">El primer paso debe ser, verificar todos los voltajes 
+        del TRC (cinescopio): Filamento, Cátodos, G1, G2, y si se dispone de una 
+        <a href="http://www.comunidadelectronicos.com/proyectos/sonda-AV.htm">punta o sonda para medición de alto 
+        voltaje</a>, medir también la tensión del Anodo.<br>
+        Si alguno de los voltajes, está fuera de los valores normales, será la 
+        pista para localizar la causa del problema.</font></p>
+      <p><font size="2">Observar si los filamentos calefactores del TRC, encienden. 
+        Si es así, aumentar el voltaje de polarización de G2 desde el potenciómetro 
+        "Screen", y ver que ocurre en la pantalla; esto permite determinar, 
+        entre otras cosas, si hay Alto Voltaje suficiente, y si los circuitos 
+        de barrido vertical y horizontal están funcionando correctamente.<br>
+        En algunos TV, los circuitos de protección y seguridad, bajan totalmente 
+        el brillo de la pantalla, cuando hay ausencia de barrido vertical, para 
+        que, la línea brillante que se presentaría en ese caso, no deje marca 
+        sobre el fósforo de la pantalla.</font></p>
+      <p><font size="2">Algunas marcas TV, en modelos de años recientes, incorporan 
+        circuitos que pueden producir el síntoma de pantalla totalmente oscura, 
+        cuando hay ligero agotamiento del TRC o cuando hay un desbalance en la 
+        emisión de los cátodos, ya sea por defecto del TRC o de los componentes 
+        asociados.<br>
+        Tal es el caso del <a href="http://www.comunidadelectronicos.com/articulos/IK.htm">Circuito IK de los TV Sony</a>.</font></p>
+      <h2 align="center"><font size="2"><b>Voltajes en los TRC</b></font></h2>
+      <p><font size="2"><strong>Cátodos (KR, KG, KB)</strong> - Entre 50 a 180V, 
+        dependiendo de la intensidad lumínica&nbsp;de la imagen, del nivel de 
+        brillo ajustado, tipo de TRC, etc. Cuanto más alto es el voltaje positivo 
+        aplicado al cátodo, más baja es su emisión y por lo tanto, más baja la 
+        intensidad del color correspondiente en la pantalla.</font></p>
+      <p><font size="2"><strong>Grilla o electrodo de Control (G1)</strong> - 
+        En la mayoría de los en televisores, este electrodo del TRC, va conectado 
+        al "común" o tierra (Ground) del circuito, por lo que el voltaje 
+        es 0 (cero).<br>
+        Pero en algunos casos, en especial en TV blanco y negro, y en monitores 
+        de PC, este electrodo es polarizado negativamente con una tensión que 
+        puede variar entre los -10 y -30V.<br>
+        Cuanto más negativo es el voltaje aplicado a G1, más baja es su emisión 
+        y por lo tanto, más baja es la luminosidad o brillo en la pantalla.</font></p>
+      <p><font size="2"><strong>Grilla o electrodo acelerador (G2 o Screen)</strong> 
+        - Entre 300 y 800V. Es directamente proporcional a la intensidad lumínica&nbsp;que 
+        del TRC.</font></p>
+      <p><font size="2"><strong>Grilla o electrodo de enfoque (G3, o G4, o Focus</strong>) 
+        - En la mayoría de los casos, entre 4000 y 8000V.<br>
+        En algunas pantallas Sony, entre 0 y 1000V.<br>
+        No es necesario medir este voltaje, en casos de pantalla totalmente oscura, 
+        pues su valor no afecta la intensidad del haz electrónico, solo su enfoque 
+        sobre el fósforo de la pantalla.</font></p>
+      <p><font size="2"><strong>Anodo</strong> - El Alto Voltaje aplicado al ánodo, 
+        varía de acuerdo al tipo y tamaño del TRC, siendo aproximadamente de 1000 
+        y 1400V por pulgada.<br>
+        Por ejemplo: para una pantalla de 20", el voltaje en el ánodo puede 
+        ser de 20000 a 28000V.<br>
+        Solo puede ser medido utilizando una <a href="http://www.comunidadelectronicos.com/proyectos/sonda-AV.htm">Sonda para medición de Alto Voltaje</a>.</font></p>
+      <p><font size="2"><strong>Filamento Calefactor (H o HEATER) </strong> - 
+        En la mayoría de los casos la tensión usada es de 6.3V (en algunos casos, 
+        como los TV Blanco y Negro, suele ser de 12V). Este voltaje, es recomendable 
+        medirlo entre los dos terminales de correspondientes (H1 y H2). En la 
+        mayoría de los TV Color, dicha alimentación es de Corriente Alterna (AC) 
+        y proviene directamente del Flyback. Su forma de onda no es sinusoidal 
+        ni simétrica, por lo cual en algunos instrumentos pueden dar una lectura 
+        errónea (entre 3.5 y 6VAC), incluso pueden dar lecturas diferentes según 
+        la posición de las puntas de prueba del instrumento.<br>
+        En monitores de PC, especialmente VGA y SVGA, la alimentación de filamento 
+        suele ser de Corriente Continua (DC), proveniente de la fuente principal. 
+        </font></p>
+      <p><font size="2">NOTA: Aunque no es común que ocurra, un TRC defectuoso, 
+        puede también ocasionar la falla de pantalla totalmente oscura. Si todos 
+        los voltajes aplicados, están dentro de los valores normales (cotejarlos 
+        con el diagrama o manual de servicio), es recomendable verificar el estado 
+        del TRC con un <a href="http://www.comunidadelectronicos.com/proyectos/reactivador.htm">Probador de TRC</a>, o aplicar 
+        la prueba descrita en <a href="http://www.comunidadelectronicos.com/articulos/trucos.htm#TRC">Trucos del Oficio</a> para verificar el estado 
+        del mismo.</font></p>
+      <hr color="#000000" noshade="noshade" size="1" width="600"> <h2><font size="2"><strong>Pantalla 
+        totalmente oscura, sin sonido</strong></font></h2>
+      <p><font size="2">Si el síntoma de pantalla totalmente oscura, está acompañado 
+        de ausencia total de sonido en los altavoces, las causas también pueden 
+        ser diversas, y es recomendable encarar la reparación, verificando primero, 
+        el correcto funcionamiento de la fuente y la presencia de todos los voltajes 
+        de alimentación para los diferentes circuitos del TV. </font><font size="2">Ver: 
+        <a href="http://www.comunidadelectronicos.com/articulos/tv-no-enciende.htm">Primeros pasos en la reparación de un 
+        TV cuando no enciende</a><b><a href="http://www.comunidadelectronicos.com/articulos/tv-no-enciende.htm"><br>
+        </a>&nbsp;</b></font></p></td>
+  </tr>
+</tbody></table>
+<hr color="#000000" noshade="noshade" size="1" width="740">
+<table border="0" cellpadding="1" cellspacing="1" align="center" bgcolor="#FFFFFF" width="740">
+  <tbody><tr> 
+    <td valign="top"><p><font size="2"><u><b>Información relacionada:</b></u></font></p>
+      <p><a href="http://www.comunidadelectronicos.com/proyectos/sonda-AV.htm"><b>Sonda para alto voltaje</b></a><br>
+        Construcción de una sonda para medir el alto voltaje del ánodo 
+        del TRC de los televisores.</p>
+      <p><a href="http://www.comunidadelectronicos.com/proyectos/reactivador.htm"><b>Probador - Reactivador de 
+        TRC</b></a><br>
+        Como construir y utilizar un probador y reactivador de tubos de rayos 
+        catódicos o cinescopios.</p>
+      <p><a href="http://www.comunidadelectronicos.com/articulos/tv-no-enciende.htm"><b>Primeros pasos en la reparación de 
+        un TV que no enciende</b></a><br>
+        Comprobaciones básicas para detectar la causa cuando el televisor 
+        no enciende.</p>
+      <p><a href="http://www.comunidadelectronicos.com/articulos/IK.htm"><b>El circuito IK de los TV Sony</b><br>
+        </a>Como funciona y como encarar las fallas relacionadas con el mismo.<br>
+      </p>
+      </td>
+    <td align="right" width="320"> <script type="text/javascript"><!--
+google_ad_client = "ca-pub-8963060289736912";
+/* Rectangulo 300x250 */
+google_ad_slot = "6188228108";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script> <script type="text/javascript" src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/show_ads.js">
+</script><ins id="aswift_2_expand" style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;" frameborder="0" height="250" width="300"></iframe></ins></ins></td>
+  </tr>
+</tbody></table>
+<hr color="#000000" noshade="noshade" size="1" width="740">
+<table border="0" cellpadding="0" cellspacing="0" align="center" height="90" width="740">
+  <tbody><tr> 
+    <td align="center" width="100%"> 
+      <!--webbot bot="HTMLMarkup" startspan -->
+      <iframe id="Banner" src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/banner740x90A.htm" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="90" width="740"> 
+      &lt;!--webbot
+        bot="HTMLMarkup" endspan --&gt;
+      </iframe> </td>
+  </tr>
+</tbody></table>
+  <hr color="#000000" noshade="noshade" size="1" width="740">
+<p align="center"><a href="javascript:history.back(1)"><font size="2"><b>Página 
+  anterior</b></font></a><b><font size="2">&nbsp; |&nbsp; </font></b><font size="2"><a href="http://www.comunidadelectronicos.com/articulos/articulos.htm"><b>Indice 
+  de artículos</b></a><b>&nbsp; |&nbsp; </b><a href="http://www.comunidadelectronicos.com/"><b>Página principal</b></a></font></p>
+<p align="center"><b><font size="1">Comunidad Electrónicos <a href="http://www.comunidadelectronicos.com/">www.comunidadelectronicos.com</a><br>
+  </font></b><font size="1"><a href="http://www.comunidadelectronicos.com/copyrigh.htm">Copyright</a> - Todos 
+  los derechos reservados.</font></p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="No%20hay%20trama%20%28pantalla%20totalmente%20oscura%29_archivos/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6303399-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body></html>

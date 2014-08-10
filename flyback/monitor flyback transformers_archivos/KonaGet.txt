@@ -1,0 +1,19 @@
+konaSafe(function(){
+teUrl='http://te.kontera.com/ContentLink/ContentLink?publisherId=9952&layout=adlinks&sId=1854,1859,562&cb=1407452205&creative=L&cn=ar';
+directAdsPrefetch=true;
+setMaxLinksOnPage(10);
+reJsonResponse({"AutoReport":{"rep":"re311.colo8.sjc.kontera.com","stopic":13},"jsABParameters":{"js_audience_targeting":true,"js_bluekai_enabled":1,"js_comscore_enabled":1,"js_feed_click_delay":true,"js_interstitial_probability":"0","js_legolas_enabled":1,"js_mobile_exclusivity":true,"js_one_layer":1,"js_peel_away_corner_enabled":false,"js_peel_away_corner_style":"dynamic_text","js_related_enabled":1,"js_related_unit_settings":"disabled"},"konaLat":"-33.3358002","konaLon":"-60.2252007","konaPostalCode":"","konaUserGuid":"1A3308DE-1E86-11E4-A51B-AA0011BCA558","pageHash":"jp_cpctrhrmntrihihoeiebopwrhcpwroiotlrnitreeoesotofrfyakoknrpaeetopnnsoiowrsmtmsaehneboCprgtRgt","publisherParams":{"luminate_account_id":"11c0daaaddf"},"redirectUrl":"http://kona32.kontera.com/KonaRedirect.js?p=9952&rId=188926042513112233&cn=ar&topics=1854,1859,562","reporterUrl":"http://kona33.kontera.com/KonaReport.js?p=9952&rId=188926042513112233&cn=ar&topics=1854,1859,562","scripts":[{"scriptURL":"http://rt.legolas-media.com/lgrt?ci=2&ti=253&kch=[SUPER_TOPIC]&kst=[SITE_DOMAIN]&ksp=[SEARCH_PHRASE]"},{"postCode":"COMSCORE.beacon({c1:8,c2:\"6036297\",c3:\"12345678\"});","scriptURL":"http://b.scorecardresearch.com/beacon.js"}],"topics":[[1854,295,13],[1859,295,13],[562,86,13],[1860,295,13]],"utf8":false});
+pageTopicVector="";
+addContentLink(106,718251,'capacitor',106,1,"","56116");
+addContentLink(117,177888,'high%20voltage',117,1,"","56116");
+addContentLink(148,175691,'transistor',148,1,"","56116");
+addContentLink(154,326706,'short%20circuit',154,1,"","56116");
+addContentLink(164,349933,'flyback%20transformer',164,1,"","56116");
+}, "reaction response");
+konaSafe(function(){
+konaTweakMode=512042523;
+konaRequestId="188926042513112233";
+konaPageLoadSendReport=0;
+setKonaResults(1,1,"L|0|0|0|white|none&pRfr=http://www.electronicrepairguide.com/monitor-flyback-transformers.html&dc_aff_id=");
+onKonaReturn(1);
+}, "reaction response");
