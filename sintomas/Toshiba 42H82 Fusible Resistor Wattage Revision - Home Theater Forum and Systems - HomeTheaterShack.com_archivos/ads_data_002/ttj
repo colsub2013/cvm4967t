@@ -1,0 +1,12 @@
+var apn_geo = {
+  "GB" : {click_url: "http://www.deletebloodcancer.org.uk/?utm_source=AppNexus&utm_medium=banner&utm_campaign=cotton", img_url : "http://cdn.adnxs.com/p/7a/b4/32/7c/7ab4327c7297c0bbe04506a1dd6ffb7e.jpg"},
+}
+if ("AR" in apn_geo) {
+document.write("<a target=\"_blank\" href=http://nym1.ib.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAGq8dJMYBNY_AAAAAAAAAAAAAAAAAAAAAJDNwmZFzfEWkygfy7ab2WExvOdTAAAAAOl8EgAdAgAA5QAAAAIAAADzEgcBt7sCAAAAAQAAAAAAVVNEACwB-gD92QAAAAAAAgEAAQIAAJIA1Be1QQAAAAA./referrer=http%3A%2F%2Fwww.hometheatershack.com%2Fforums%2Ftoshiba%2F10599-toshiba-42h82-fusible-resistor-wattage-revision.html/clickenc=" + apn_geo["AR"].click_url
+ + "><img src=" + apn_geo["AR"].img_url + "></a>");  
+}else {
+  img_url = "http://cdn.adnxs.com/p/99/88/82/c7/998882c7a8d351309787c9aeaa04f304.jpg";
+  click_url = "http://www.redcross.org:80//charitable-donations";
+  document.write("<a target=\"_blank\" href=http://nym1.ib.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAGq8dJMYBNY_AAAAAAAAAAAAAAAAAAAAAJDNwmZFzfEWkygfy7ab2WExvOdTAAAAAOl8EgAdAgAA5QAAAAIAAADzEgcBt7sCAAAAAQAAAAAAVVNEACwB-gD92QAAAAAAAgEAAQIAAJIA1Be1QQAAAAA./referrer=http%3A%2F%2Fwww.hometheatershack.com%2Fforums%2Ftoshiba%2F10599-toshiba-42h82-fusible-resistor-wattage-revision.html/clickenc=" + click_url + "><img src=" + img_url + "></a>");
+}
+document.write('<scr' + 'ipt src="http://cdn.adnxs.com/ANX_async_usersync.js"></scr'+'ipt>');

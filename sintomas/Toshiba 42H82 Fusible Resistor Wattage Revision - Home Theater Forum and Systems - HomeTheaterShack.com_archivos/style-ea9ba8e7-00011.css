@@ -1,0 +1,390 @@
+body
+{
+	background: #202939;
+	color: #33CCFF;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #202939;
+}
+a:visited, body_avisited
+{
+	color: #202939;
+}
+a:hover, a:active, body_ahover
+{
+	color: #000000;
+}
+.page
+{
+	background: #f2f2f2;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #C2C2C2;
+	color: #000000;
+	border-top: 0px solid #7c7e84; 
+	border-right: 0px solid #7c7e84; 
+	border-bottom: 0px solid #7c7e84; 
+	border-left: 0px solid #7c7e84;
+}
+.tcat
+{
+	background: url(http://www.hometheatershack.com/forums/images/cat_head_bg2.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top: 0px solid #222222; 
+	border-right: 0px solid #222222; 
+	border-bottom: 0px solid #222222; 
+	border-left: 0px solid #222222;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FF0000;
+	text-decoration: underline;
+}
+.thead
+{
+	background: url(http://www.hometheatershack.com/forums/images/cat_head_bg_alt.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border-top: 0px solid #222222; 
+	border-right: 0px solid #222222; 
+	border-bottom: 0px solid #222222; 
+	border-left: 0px solid #222222;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #33FF00;
+}
+.tfoot
+{
+	background: url(http://www.hometheatershack.com/forums/images/cat_head_bg2.gif) repeat-x top left;
+	color: #E0E0F6;
+	font-weight: bold;
+	border-top: 0px solid #7c7e84; 
+	border-right: 0px solid #7c7e84; 
+	border-bottom: 0px solid #7c7e84; 
+	border-left: 0px solid #7c7e84;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #E0E0F6;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #E0E0F6;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #33FF00;
+}
+.alt1, .alt1Active
+{
+	background: #e3e3e3;
+	color: #000000;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.alt2, .alt2Active
+{
+	background: #dadada;
+	color: #000000;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #e3e3e3;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+textarea, .bginput
+{
+	background: #e3e3e3;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	background: #e3e3e3;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #660000;
+}
+.navbar
+{
+	background: transparent;
+	font: bold 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #202939;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	color: #000000;
+	padding: 10px;
+	border: 0px outset;
+}
+.panelsurround
+{
+	background: #f1f1f1;
+	color: #2E2E2E;
+	border-top: 0px solid #7c7e84; 
+	border-right: 0px solid #7c7e84; 
+	border-bottom: 0px solid #7c7e84; 
+	border-left: 0px solid #7c7e84;
+}
+legend
+{
+	background: #e3e3e3;
+	color: #0E2543;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: url(http://www.hometheatershack.com/forums/images/cat_head_bg2_alt.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 8px 6px 8px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	background: transparent;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #EBEBEB;
+	color: #000000;
+	font-size: 11px;
+	border: solid 1px #0B198C;
+	margin-bottom: 8px;
+}
+.vbmenu_option
+{
+	background: #f1f1f1;
+	color: #202939;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #202939;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #202939;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #202939;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #cfcfcf;
+	color: #202939;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #202939;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #202939;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #202939;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 8pt; padding-bottom: 4px; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 6px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 2px 2px 2px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+.alt3, .alt3Active
+{
+	background: #0E2543;
+	color: #000000;
+}
+
+.alt4, .alt4Active
+{
+	background: #B9A9AC;
+	color: #000000;
+}
+
+.alt5, .alt5Active
+{
+	background: #1f2839;
+	color: #FFFFFF;
+}
+
+.alt7, .alt7Active
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.alt9, .alt9Active
+{
+	background: #e5e5e5;
+	color: #000000;
+}
+
+.alt10, .alt10Active
+{
+	background: #dcdce0;
+	color: #000000;
+}
+
+.alt12, .alt12Active
+{
+	background-image: url(../../images/gradient-IHSBC.png);
+        background-repeat: repeat;
+	color: #000000;
+}
+
+.alt14, .alt14Active
+{
+	background-image: url(../../images/gradient-FZZLC.png);
+        background-repeat: repeat;
+	color: #000000;
+}
+
+.background-left {
+background: url(../../images/bgimage87x227-left-repeat.gif) left;
+}
+.background-right {
+background: url(../../images/bgimage87x227-right-repeat.gif) right;
+}
+
+.vbseocopyright, .vbseocopyright a {
+color: #33CCFF;
+}
+
+.thetitle{
+font-weight:bold;
+font-size:12pt;
+
+}
+
+.ttitle,.ftitle
+  {
+    margin:0 0 10px 0;
+    font-size: 12pt;
+    font-weight: bold;	
+  }
+.ttitle{
+    font-size: 14px;
+
+}
+.indextitle
+  {
+    font-size: 12pt;
+    font-weight: bold;	
+    display: inline;
+  }
+
+.click{
+    font-weight:bold;
+    color:#FFFFFF';
+    display:inline;
+}

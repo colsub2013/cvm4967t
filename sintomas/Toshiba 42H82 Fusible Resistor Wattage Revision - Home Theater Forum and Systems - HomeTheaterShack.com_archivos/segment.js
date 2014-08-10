@@ -1,0 +1,1 @@
+(function(){var picad=picadService.getPJL();if(picad.segment_data!=undefined){picad.segment_data.status=204;picad.segment_data.ch=[];picad.segment_data.cat=[]}})();
