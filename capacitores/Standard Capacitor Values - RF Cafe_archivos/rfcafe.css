@@ -1,0 +1,105 @@
+﻿.black_6pt{font-family:Arial;font-size:8px}
+.txt_7pt_gray{font-size:9px;color:#333;font-family:Arial;color:#444}
+.txt_7pt{font-size:9px;color:#222;text-align:left;word-spacing:0;margin:2px 0 0}
+.txt_8pt{font-size:11px;color:#000;font-weight:normal;text-indent:0;text-align:left;word-spacing:0px;margin:2px 0 0}
+.float_lt_bdr_5px{margin:2px 8px 2px 0;border:1px solid #00D;float:left}
+.float_rt_bdr_5px{margin:2px 0 2px 8px;border:1px solid #00D;float:right}
+.bdr_5px{margin:5px;border:1px solid #00D;text-align:center}
+.float_lt_5px{border:0;margin:4px 8px 4px 0;float:left}
+.float_rt_5px{border:0;margin:4px 0px 4px 8px;float:right}
+.txt_align_ctr_5px{border:0;margin:5px;text-align:center}
+.float_lt_bdr_2px{margin:2px 2px 2px 0;border:1px solid #00D;float:left}
+.float_rt_bdr_2px{margin:2px 0 2px 2px;border:1px solid #00D;float:right}
+.bdr_2px{margin:2px;border:1px solid #00D;text-align:center}
+.float_lt_2px{border:0;margin:2px 2px 2px 0;float:left}
+.float_rt_2px{border:0;margin:2px 2px 2px 0px;float:right}
+.margin_2pt_horiz{border:0;margin:2px}
+h1{font-size:16px;font-weight:700;color:#036;text-align:center;vertical-align:middle;margin:0}
+h2{font-size:16px;font-weight:700;color:#141;margin:12px 0;background-color:#D9D9D9}
+h3{font-size:12px;color:#111;font-weight:700;margin:6px 0}
+h4{font-size:11px;font-family:Arial;text-align:center;font-weight:700;color:#FFF;margin:2px 0;margin-bottom:0;padding:1px 0}
+h5{font-size:11px;color:#111;font-weight:700;font-family:Arial;margin:6px 0}
+blockquote{margin:6px 20px}
+.vendor-search{width:800px;border:3px #225 double;margin:10px 0;margin-top:15px;padding:5px 2px}
+.headers{font-family:Arial;text-align:center;font-size:11px;font-weight:700;color:#FFF;margin:2px 0;margin-bottom:0;padding:1px 0}
+.head_mblue{background-color:#158}
+.head_dpurple{background-color:#647}
+.head_dred{background-color:#833}
+.head_dgreen{background-color:#363}
+.head_dgray{background-color:#777}
+.head_teal{background-color:#477}
+.head_dbrown{background-color:#593E1A}
+.head_dblue{background-color:#147}
+.head_lblue{background-color:#369}
+.head_mpurple{background-color:#727}
+.head_mred{background-color:#933}
+.head_mgreen{background-color:#484}
+.head_lbrown{background-color:#B5783C}
+.head_orange{background-color:#C60}
+.head_mbrown{background-color:#764}
+.head_black{background-color:#111}
+.head_tan {background-color:#DC9;color:#222}
+.head_lyellow{background-color:#FFC;color:#222}
+.box_full_width{padding:0;margin:0;width:100%;border-collapse:collapse}
+.box_half_page_left{margin:10px 5px;width:350px;border:1px #036 double;font-size:10px;padding:3px}
+.box_half_page_right{margin:5px;width:350px;border:1px #036 double;font-size:10px;padding:3px}
+.dk_prpl_11px_bld_arial{color:#4A004A;font-size:11px;font-weight:700;text-align:center;font-family:Arial, Helvetica}
+.dk_red_11px_bld_arial{color: #700;font-size: 11px;font-weight:700;text-align: center;font-family: Arial, Helvetica}
+.dk_grn_11px_bld_arial{color:#050;font-size:11px;font-weight:700;text-align:center;font-family:Arial, Helvetica}
+.blue_11px_bld_arial{color:#204080;font-size:11px;font-weight:700;text-align:center;font-family:Arial, Helvetica}
+.vendor_tbl_rows{padding:0;margin:0;border-collapse:collapse;border:1px solid #CCC;width:100%;text-align:left}
+.vendor_cell_50pct{width:50%;vertical-align:top;text-align:left;font-size:11px;padding:5px}
+.box_300x250{border-width:0;text-align:center;width:306px;height:256px;border-collapse:collapse}
+.box_300x250_flt_rt{margin:5px;padding:0;width:304px;height:254px;border-collapse:collapse;float:right}
+p{font-family:Verdana, Arial, Helvetica;margin-top:4px;margin-bottom:0px;text-align:left}
+ul{margin-left:24px;margin-top:12px;margin-bottom:12px;padding:0}
+li{display:list-item;list-style-type:disc;margin-left:0px;margin-top:3px;padding:0}
+li li{list-style-type:circle;margin-left:-6px;padding:0}
+li li li{list-style-type:square;margin-left:-6px;padding:0}
+ol{margin-left:24px;list-style-type:decimal;padding:0}
+body{font-family:Verdana;font-size:12px}
+a:link{color:#303044}
+a:visited{color:#373737}
+a:hover{color:#B42937}
+a:active{color:#1E2479}
+.center{display:inline-block;margin:auto}
+.col_25pct{vertical-align:top;width:24.5%}
+.col_33pct{vertical-align:top;width:33%}
+.width_4_col{width: 24%;float:left;padding:5px;font-size:11px;vertical-align:top;text-align:left}
+.width_3_col{width:33%;float:left;padding:5px;font-size:11px;vertical-align:top;text-align:left}
+.width_2_col{width:49%;float:left;padding:5px;font-size:11px;vertical-align:top;text-align:left}
+table.outline-cell td{padding:2px;border:1px #DDD solid}
+table.outline-cell-0pad td{border:1px #DDD solid}
+/* ----- Begin -- RF Cafe Specific ----- */
+.highlighted_ad{border-style:solid;font-size:11px;border-width:2px;width:325px;background-color:#FFF;border-collapse:collapse;margin:auto;font-family:Verdana;text-align:left;line-height:12px}
+.mag_box{float:left;margin-right:10px;width:220px;vertical-align:top;border:3px #426 double;padding:0;padding-bottom:2px;font-size:11px;line-height:13px}
+.mag_box_rt{float:right;margin-left:10px;width:220px;height:210px;vertical-align:top;border:3px #426 double;padding:2px;font-size:11px;line-height:13px}
+#dwt-body{font-family:Verdana,Arial,Helvetica;font-size:12px;margin:3px;background-image:url('images/rfcafe_bkg.gif')}
+#dwt-container{width:1151px;margin:0 auto;background:none; background-color:#FFF}
+#dwt-left{float:left;width:124px;padding:3px 5px;vertical-align:top;background-color:#BBB}
+#dwt-left-inc{width:100%;font-size:11px;background-color:#FFF}
+#dwt-center{float:left;width:730px;vertical-align:top;padding:4px;background-color:#FFF}
+#dwt-top{width:734px;margin-top:-1px;padding-top:1px;background-color:#FFF}
+#dwt-top-inc{width:730px;background:#FFF}
+.dwt-menu-ifrm{width:572px;height:136px;margin:2px 0 -2px 2px;border:1px #060 solid;padding-left:2px}
+.dwt-menus{width:100%;height:113px;font-size:10px;vertical-align:top;background-color:#EEE;margin-left:2px}
+.tabs{width:570px;text-align:center;height:20px;font-size:10px;font-weight: bold;border-radius:4px 4px 0 0}
+.tab-sel{background-color:#515}
+.tab-sel:hover{background-color:#818}
+.tab-nsel{background-color:#999}
+.tab-nsel:hover{background-color:#818}
+#dwt-title{width:734px;margin:3px 0;color:#036;font-size:16px;font-weight:700;text-align:center;background-color:#D9D9D9;border-bottom:2px #444 solid;border-top:2px #444 solid;padding:3px 0}
+#dwt-h-ad{width:734px;height:90px;margin-bottom:3px;text-align:center;background:#FFF}
+#dwt-h-ad-inc{width:734px;height:90px;font-size:10px;font-weight:700;background:#FFF}
+#dwt-content{width:728px;text-align:left;padding:2px 3px 10px 3px;background-color:#FFF}
+#dwt-content-ad{width:300px;height:250px;float:right;border:0;margin:0 0 10px 10px}
+#dwt-bottom{width:734px;background-color:#FFF;overflow:hidden}
+#dwt-bottom-inc{width:728px;margin:0 0 0 0px;text-align:center;color:#000;font-size:11px;font-weight:700}
+#dwt-right{float:left;width:246px;padding:3px 5px;vertical-align:top;background:#BBB}
+#dwt-right-inc{width:244px;background:#FFF}
+#dwt-ifrm-logos{text-align:left;width:244px;height:338px;margin:0;margin-bottom:5px;border:0}
+.iframe-120-600{width:120px;height:600px;border:0;margin:0;overflow:hidden}
+.iframe-160-600{width:160px;height:600px;border:0;margin:0;overflow:hidden}
+.iframe-728-90{width:728px;height:90px;border:0;margin:0;overflow:hidden}
+.iframe-300-250{width:300px;height:250px;border:0;margin:0;overflow:hidden}
+/* ----- End -- RF Cafe Specific ----- */
