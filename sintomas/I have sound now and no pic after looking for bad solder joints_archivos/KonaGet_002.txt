@@ -1,0 +1,14 @@
+konaSafe(function(){
+teUrl='http://te.kontera.com/ContentLink/ContentLink?publisherId=6379&layout=adlinks&sId=1859,1854,562&cb=1408318032&creative=L&cn=ar';
+directAdsPrefetch=true;
+setMaxLinksOnPage(10);
+reJsonResponse({"AutoReport":{"rep":"re299.colo8.sjc.kontera.com","stopic":13},"jsABParameters":{"js_audience_targeting":false,"js_bluekai_enabled":1,"js_comscore_enabled":1,"js_feed_click_delay":true,"js_interstitial_probability":"0","js_legolas_enabled":1,"js_mobile_exclusivity":true,"js_one_layer":1,"js_peel_away_corner_enabled":false,"js_peel_away_corner_style":"dynamic_text","js_related_enabled":1,"js_related_unit_settings":"internal"},"konaLat":"-30.9545994","konaLon":"-58.7832985","konaPostalCode":"","konaUserGuid":"00949E32-2666-11E4-BA81-AA0011BCA442","pageHash":"jp_sla.otwesplbsAipczsasocviaybusiipoloieteisepppcbanacdopplnednmogeectrlnecticensaoelrlezsae","publisherParams":{"all_except":"1","infoUnit.dc_rmPrefetchNum":"0","inimage_payment_type_id":"1","inimage_rev_share":"0.0","tags_list":[{"attrName":"id","attrValue":"JA_filterQuestionContainer","tagName":"div"},{"attrName":"id","attrValue":"JA_howItWorks","tagName":"div"},{"attrName":"id","attrValue":"JA_sideBar","tagName":"div"},{"attrName":"class","attrValue":"JA_LegalDisclaimer text-footer","tagName":"div"}]},"redirectUrl":"http://kona32.kontera.com/KonaRedirect.js?p=6379&rId=197584262361993586&cn=ar&topics=1859,1854,562","reporterUrl":"http://kona33.kontera.com/KonaReport.js?p=6379&rId=197584262361993586&cn=ar&topics=1859,1854,562","scripts":[{"scriptURL":"http://rt.legolas-media.com/lgrt?ci=2&ti=253&kch=[SUPER_TOPIC]&kst=[SITE_DOMAIN]&ksp=[SEARCH_PHRASE]"},{"postCode":"COMSCORE.beacon({c1:8,c2:\"6036297\",c3:\"12345678\"});","scriptURL":"http://b.scorecardresearch.com/beacon.js"}],"topics":[[1859,295,13],[1854,295,13],[562,86,13]],"utf8":false});
+pageTopicVector="";
+}, "reaction response");
+konaSafe(function(){
+konaTweakMode=109389331;
+konaRequestId="197584262361993586";
+konaPageLoadSendReport=0;
+setKonaResults(1,1,"L|0|0|0|white|none&pRfr=http://www.justanswer.com/tv-repair/6yv27-sound-no-pic-looking-bad-solder-joints.html&dc_aff_id=");
+onKonaReturn(1);
+}, "reaction response");
